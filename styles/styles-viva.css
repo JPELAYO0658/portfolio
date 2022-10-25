@@ -36,6 +36,7 @@ h1 {
   font-family: tahoma, sans-serif;
   text-align: center;
   padding: 10px;
+  text-transform: uppercase;
 }
 h2 {
   font-family: sans-serif;
