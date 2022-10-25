@@ -24,9 +24,18 @@
   padding-right: 100px;
   background-color: #dddddd;
 }
+.footer img {
+  border-style: dashed;
+  border-color: orange;
+  border-width: 2px;
+  width: 2%;
+  height: 2%;
+  padding-right: 5px;
+}
 h1 {
   font-family: tahoma, sans-serif;
   text-align: center;
+  padding: 10px;
 }
 h2 {
   font-family: sans-serif;
@@ -39,8 +48,20 @@ h3 {
 p {
   font-family: sans-serif;
 }
-
+/* unvisited link */
+a:link {
+  color: #8B4513;
+}
+/* mouse over link */
+a:hover {
+  color: #FF0000;
+}
+/* visited link */
+a:visited {
+  color: #8B4513;
+}
 /*
+a[target="_blank"] {}
 img {
   border-style: dashed;
   border-color: orange;
@@ -50,33 +71,10 @@ img {
 }
 p {color: blue;}
 .purple-text {color: #8A2BE2;}
-p {color: orange;}
-h1 {
-  color: purple;
-}
-p {
-  color: red;
-}
 body {
   background-color: #1E90FF;
 }
-.purple-text {
-  color: purple;
-}
 .important {
   font-weight: bolder;
-}
-#lead-paragraph {
-  color:purple;
-  font-weight: bold;
-}
-.important:hover {
-  background-color: #F0FFFF;
-}
-a[href="https://imagecomics.com/"] {
-  background-color: #FF8C00;
-}
-a[href="https://storm.wnba.com/"] {
-  background-color: #0000FF;
 }
 */
