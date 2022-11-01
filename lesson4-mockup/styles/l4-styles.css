@@ -1,0 +1,40 @@
+.modern-font {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 2em;
+  font-size: 80%;
+  color: #696969;
+}
+#logo {
+  background-color: #D3D3D3;
+}
+aside {
+  /* border: 1px solid black; */
+  height: 45em;
+  width: 15em;
+  float: right;
+  padding: 1em;
+}
+aside h3 {
+  padding-top: 1.5em;
+}
+aside img {
+  width: 100%;
+  height: 100%;
+}
+aside p {
+  margin-bottom: 1rem;
+}
+a:link {
+  color: #1E90FF;
+}
+a:hover {
+  color: #FF7F50;
+}
+a:visited {
+  color: #1E90FF;
+}
+
+/*
+typography - sans serif all over, font weights are in place, headings are 2rem, text is a dark grey
+links - are a light blue or cyan
+padding - there is padding around the blocks of texts and seemingly inbetween the words themselves */
