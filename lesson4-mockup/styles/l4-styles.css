@@ -32,7 +32,7 @@ figcaption {
   font-size: 80%;
 }
 footer {
-  border: 5px dashed #00ff00;
+  /* border: 5px dashed #00ff00; */
   clear: left;
 }
 footer img {
@@ -44,17 +44,17 @@ footer img {
 }
 .left-box {
   width: 20%;
-  background-color: #ff0000;
+  /* background-color: #ff0000; */
   float: left;
 }
 .middle-box {
   width: 20%;
-  background-color: #00ff00;
+  /* background-color: #00ff00; */
   float: left;
 }
 .right-box {
   width: 20%;
-  background-color: #0000ff;
+  /* background-color: #0000ff; */
   float: left;
 }
 aside {
