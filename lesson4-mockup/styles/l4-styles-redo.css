@@ -28,10 +28,6 @@ h2 {
   background-color: #D3D3D3;
   padding: 1em;
 }
-article {
-  /* border: 1px solid black; */
-  margin: 0 500px 0 50px;
-}
 h3 {
   color: #008080;
 }
@@ -57,13 +53,17 @@ section {
 .story {
   color: #000000;
 }
+article {
+  /* border: 1px solid black; */
+  margin: 0 500px 0 50px;
+}
 aside {
   color: #696969;
   padding-left: 50px;
   padding-right: 50px;
   /* border: 1px solid red; */
   width: 250px;
-  margin-top: -12em;
+  /* margin-top: -10em;*/
   float: right;
 }
 aside h3 {
