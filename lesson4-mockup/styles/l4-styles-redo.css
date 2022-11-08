@@ -66,6 +66,9 @@ aside {
   margin-top: -22em;
   float: right;
 }
+aside h3 {
+  color: #000000;
+}
 aside a {
   font-size: .8em;
 }
