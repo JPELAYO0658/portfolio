@@ -1,0 +1,111 @@
+.modern-font {
+  font-family: Helvetica, Arial, sans-serif;
+}
+header h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  background-color: #008080;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+h2 {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: lighter;
+  background-color: #008080;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin-top: -1.7rem;
+  margin-bottom: 1.7rem;
+}
+.main-nav ul {
+  background-color: #D3D3D3;
+  padding: 1em 1em 1em 50px;
+  margin-top: -1.7rem;
+}
+.main-nav li {
+  display: inline;
+  background-color: #D3D3D3;
+  padding: 1em;
+}
+article {
+  border: 1px solid black;
+  margin: 0 500px 0 50px;
+}
+h3 {
+  color: #008080;
+}
+p {
+  font-size: .75em;
+}
+section {
+  box-sizing: border-box;
+  border: 1px solid blue;
+  width: 100%;
+}
+.quote {
+  font-weight: lighter;
+  padding-left: 50px;
+}
+.author {
+  font-weight: lighter;
+  font-size: .9em;
+  font-style: italic;
+  padding-left: 50px;
+  margin-top: -1em;
+}
+.story {
+  color: #000000;
+}
+aside {
+  color: #696969;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid red;
+  width: 250px;
+  margin-top: -400px;
+  float: right;
+}
+aside a {
+  font-size: .8em;
+}
+figure img {
+  height: 80%;
+  width: 80%;
+}
+figcaption {
+  font-size: 80%;
+}
+#logo {
+  background-color: #000000;
+  height: 20%;
+  width: 20%;
+}
+footer {
+  border: 2px dashed #ff0000;
+  margin: 200px 0 0 0;
+  padding: 50px; 0 50px 0;
+  background-color: #000000;
+  text-align: center;
+}
+footer p {
+  color: #ffffff;
+}
+footer nav {
+  color: #ffffff;
+  font-size: .75em;
+}
+footer li {
+  display: inline;
+  padding: .5em;
+}
+a:link {
+  color: #008080;
+  text-decoration: none;
+}
+a:hover {
+  color: #0000FF;
+}
+a:visited {
+  color: #008080;
+}
