@@ -1,3 +1,6 @@
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+}
 #viva-logo {
   border-style: dashed;
   border-color: orange;
@@ -32,18 +35,30 @@
   height: 2%;
   padding-right: 5px;
 }
+.fa-brands {
+  color: red;
+  font-size: 200%;
+  border: 1px dashed green;
+  padding-right: .5rem;
+}
+.flex-container {
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px dashed red;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
-  font-family: tahoma, sans-serif;
   text-align: center;
   padding: 10px;
   text-transform: uppercase;
 }
 h2 {
-  font-family: sans-serif;
   text-align: center;
 }
 h3 {
-  font-family: sans-serif;
   text-align: center;
 }
 p {
