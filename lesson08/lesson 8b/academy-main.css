@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    background-image: url("images/hero-image.jpg");
+    background-repeat: repeat-x;
+    background-color: #0B6384;
+    /* background-size: cover; */
+    color: white;
+}
+ul {   
+    list-style-type: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid-item {
+    /* border: .5px dashed white; */
+    text-align: center;
+    background-color: #0B6384;
+}
+.grid-item-header {
+    border-bottom: 3px solid #EDB722;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1; 
+}
+.grid-item-contact {
+    text-align: right;
+    border-bottom: 3px solid #EDB722;
+}
+.grid-item-nav {
+    /* border: .5px dashed red; */
+    padding-top: 1rem;
+    grid-column: 1 / span 3;
+}
+.grid-item-nav h2 {
+    padding-top: 1.5rem;
+}
+a {
+    padding: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color:#EDB722;
+    text-decoration: underline;
+}
+.grid-item-nav p {
+    margin-bottom: 2rem;
+}
+.grid-item-social {
+    text-align: right;
+}
+.grid-item-social img {
+    height: 12%;
+    width: 10%;
+    padding-left: 15px;
+    padding-top: 1px;
+}
+.grid-item-header-2 {
+    /* border: .5px dashed white; */
+    border-bottom: 3px solid #EDB722;
+}
+.grid-item-header-3 {
+    /* border: .5px dashed white; */
+    border-bottom: 3px solid #EDB722;
+}
+.box {
+    height: 350px;
+    width: 320px;
+    text-align: center;
+    background-color: white;
+    color: #707070;
+    border-radius: 2rem;
+    padding: .25rem;
+}
+.flex-box {
+    /* border: .5px dashed red; */
+    background-color: #0B6384;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.footer {
+    border-top: 3px solid #EDB722;
+    background-color: #707070;
+    text-align: center;
+    padding-bottom: .25rem;
+}
+.profile-box {
+    height: 220px;
+    width: 425px;
+    /* border: .5px dashed red; */
+    background-color: white;
+    color: #707070;
+    border-radius: 2rem;
+    padding: .25rem;
+    margin-top: 20px;
+}
+.profile-box img {
+    /* border: .5px dashed black; */
+    float: left;
+    padding: 1rem;
+    height: 50%;
+}
+.profile-box p {
+    padding-right: 1.5rem;
+}
+#mascot-video {
+    float: left;
+}
