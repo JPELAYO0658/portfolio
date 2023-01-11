@@ -1,0 +1,28 @@
+form {
+    border: 1px solid white;
+    margin: 2rem;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 1.2rem;
+}
+input {
+    border-radius: 10px;
+}
+#submit-button {
+    margin: 1rem;
+    float: right;
+}
+input:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+fieldset {
+    margin: 1.5rem;
+}
+legend {
+    text-transform: uppercase;
+}
