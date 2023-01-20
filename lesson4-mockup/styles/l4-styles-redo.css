@@ -32,7 +32,7 @@ h3 {
   color: #008080;
 }
 p {
-  font-size: .75em;
+  font-size: 1rem;
 }
 section {
   box-sizing: border-box;
@@ -100,7 +100,7 @@ footer nav {
 }
 footer li {
   display: inline;
-  padding: .5em;
+  padding: 1.5em;
 }
 a:link {
   color: #008080;
